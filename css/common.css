@@ -1,0 +1,52 @@
+:root {
+  /* Main font - professional and modern */
+  --font-primary: 'Inter', 'Roboto', 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Monospace variant for code blocks and technical content */
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', Consolas, monospace;
+  /* Font weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  /* Font sizes */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+  /* Colors */ /* https://coolors.co/eee8ec-9186ab-673a44-003287-001e51 */
+  --color-off-white: #eee8ec; /* white color */
+  --color-light-accent: #9186ab; /* Light accent color */
+  --color-main-brand: #673a44; /* main color */ /* logo/brand - bordeaux */
+  --color-dark-accent: #003287; /* Primary blue color */ /* IVA */
+  --color-dark-shades: #001E51; /* darker blue color */ /* IVA - donker */
+  --color-regular: #999999; /* Standard color for buttons and template input field areas */ /* grey */
+  --color-primary: #694146; /* Primary color for buttons and links */ /* bordeaux */
+  --color-info: #112446; /* Info color for alerts and messages */ /* blue */
+  --color-succes: #558e4d; /* Success color for alerts and messages */ /* green */
+  --color-warning: #d27e15; /* Warning color for alerts and messages */ /* orange */
+  --color-danger: #f44336; /* Danger color for alerts and messages */ /* red */
+  /* Spacing */
+  --spacing-xs: 0.25rem; /* 4px */
+  --spacing-sm: 0.5rem; /* 8px */
+  --spacing-base: 1rem; /* 16px */
+  --spacing-lg: 1.5rem; /* 24px */
+  --spacing-xl: 2rem; /* 32px */
+  --spacing-2xl: 3rem; /* 48px */
+  --spacing-3xl: 4rem; /* 64px */
+  /* Border radius */
+  --border-radius-sm: 0.125rem; /* 2px */
+  --border-radius-base: 0.25rem; /* 4px */
+  --border-radius-lg: 0.5rem; /* 8px */
+  --border-radius-xl: 0.75rem; /* 12px */
+  --border-radius-2xl: 1rem; /* 16px */
+  --border-radius-3xl: 1.5rem; /* 24px */
+  --border-radius-full: 9999px; /* Circle */
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1); /* Small shadow for subtle depth */
+  --shadow-base: 0 2px 4px rgba(0, 0, 0, 0.1); /* Base shadow for elements */
+  --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.1); /* Large shadow for cards and modals */
+  --shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.1); /* Extra large shadow for overlays */
+  --shadow-2xl: 0 16px 32px rgba(0, 0, 0, 0.1); /* Extra extra large shadow for popups */
+}
