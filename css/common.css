@@ -29,7 +29,9 @@
   --color-danger: #f44336; /* Danger color for alerts and messages */ /* red */
   /* Sizing */
   --size-xs: 0.5rem; /* 8px */
-  --size-header: 6rem; /* 96px */
+  --size-header: 8rem; /* 128px */
+  --size-logo: 6rem; /* 96px */
+  --size-icon: 1.75rem; /* 28px */
   /* Spacing */
   --spacing-xs: 0.25rem; /* 4px */
   --spacing-sm: 0.5rem; /* 8px */
