@@ -27,6 +27,9 @@
   --color-succes: #558e4d; /* Success color for alerts and messages */ /* green */
   --color-warning: #d27e15; /* Warning color for alerts and messages */ /* orange */
   --color-danger: #f44336; /* Danger color for alerts and messages */ /* red */
+  /* Sizing */
+  --size-xs: 0.5rem; /* 8px */
+  --size-header: 6rem; /* 96px */
   /* Spacing */
   --spacing-xs: 0.25rem; /* 4px */
   --spacing-sm: 0.5rem; /* 8px */
@@ -49,4 +52,9 @@
   --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.1); /* Large shadow for cards and modals */
   --shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.1); /* Extra large shadow for overlays */
   --shadow-2xl: 0 16px 32px rgba(0, 0, 0, 0.1); /* Extra extra large shadow for popups */
+
+  /* Common Rules */
+  -webkit-user-select: text;
+  user-select: text;
+  box-sizing: border-box;
 }
