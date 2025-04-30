@@ -17,6 +17,7 @@
   --font-size-3xl: 1.875rem; /* 30px */
   /* Colors */ /* https://coolors.co/eee8ec-9186ab-673a44-003287-001e51 */
   --color-off-white: #eee8ec; /* white color */
+  --color-off-white-transparent: #eee8ec44; /* white color low opacity */
   --color-light-accent: #9186ab; /* Light accent color */
   --color-main-brand: #673a44; /* main color */ /* logo/brand - bordeaux */
   --color-dark-accent: #003287; /* Primary blue color */ /* IVA */
@@ -32,6 +33,8 @@
   --size-header: 8rem; /* 128px */
   --size-logo: 6rem; /* 96px */
   --size-icon: 1.75rem; /* 28px */
+  --size-container: 32rem; /* 512px */
+  --size-container-img: 24rem; /* 384px (512px - 128px) */
   /* Spacing */
   --spacing-xs: 0.25rem; /* 4px */
   --spacing-sm: 0.5rem; /* 8px */
