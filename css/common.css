@@ -66,5 +66,7 @@
   -webkit-user-select: text;
   user-select: text;
   box-sizing: border-box;
-  font: var(--font-size-base) var(--font-weight-normal) var(--font-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
+  font-family: var(--font-primary);
 }
