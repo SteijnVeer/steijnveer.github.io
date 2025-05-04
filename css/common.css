@@ -55,18 +55,15 @@
   --border-radius-2xl: 1rem; /* 16px */
   --border-radius-3xl: 1.5rem; /* 24px */
   --border-radius-full: 9999px; /* Circle */
-  /* Shadows */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1); /* Small shadow for subtle depth */
-  --shadow-base: 0 2px 4px rgba(0, 0, 0, 0.1); /* Base shadow for elements */
-  --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.1); /* Large shadow for cards and modals */
-  --shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.1); /* Extra large shadow for overlays */
-  --shadow-2xl: 0 16px 32px rgba(0, 0, 0, 0.1); /* Extra extra large shadow for popups */
-
+  
   /* Common Rules */
-  -webkit-user-select: text;
-  user-select: text;
-  box-sizing: border-box;
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-normal);
   font-family: var(--font-primary);
+}
+
+* {
+  -webkit-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
 }
