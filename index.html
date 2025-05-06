@@ -12,8 +12,12 @@
   <script src="/js/panorama.js"></script>
   <script src="/js/floating-item-focus.js"></script>
   <script>
-    function openMenu() { document.querySelector('menu').classList.add('open'); panorama.pause(); }
-    function closeMenu() { document.querySelector('menu').classList.remove('open'); panorama.toggle(); }
+    let menu = null;
+    document.addEventListener('DOMContentLoaded', () => {
+      menu = document.querySelector('menu');
+    });
+    function openMenu() { menu?.classList.add('open'); panorama?.pause(); }
+    function closeMenu() { menu?.classList.remove('open'); panorama?.toggle(); }
   </script>
 </head>
 
