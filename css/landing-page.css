@@ -248,7 +248,6 @@ main {
   gap: var(--spacing-3xl);
   width: 100%;
   padding: calc(var(--spacing-3xl) / 2) var(--spacing-3xl) var(--spacing-3xl) var(--spacing-3xl);
-
   background-color: var(--color-light-accent);
 
   >div {
@@ -262,16 +261,6 @@ main {
     flex-direction: row;
     align-items: center;
     gap: var(--spacing-3xl);
-
-    filter: brightness(0.6);
-    box-shadow: none;
-    transform: translate(var(--spacing-lg), var(--spacing-lg));
-    transition: filter 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-    &:hover {
-      filter: brightness(1);
-      box-shadow: var(--spacing-lg) var(--spacing-lg) var(--color-dark-shades);
-      transform: translate(0, 0);
-    }
     >img {
       height: 100%;
       aspect-ratio: 1 / 1;
@@ -300,6 +289,24 @@ main {
         }
       }
     }
+    &.top, &.bottom, &.left, &.right {
+      --horizontal: 0;
+      --vertical: 0;
+      &.top { --vertical: calc(-1 * var(--spacing-lg)); }
+      &.bottom { --vertical: var(--spacing-lg); }
+      &.left { --horizontal: calc(-1 * var(--spacing-lg)); }
+      &.right { --horizontal: var(--spacing-lg); }
+      filter: brightness(0.6);
+      box-shadow: none;
+      transform: translate(var(--horizontal), var(--vertical));
+      transition: filter 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+      &.focus {
+        filter: brightness(1);
+        box-shadow: var(--horizontal) var(--vertical) var(--color-dark-shades);
+        transform: translate(0, 0);
+      }
+    }
+
   }
 }
 

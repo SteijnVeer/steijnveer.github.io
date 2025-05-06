@@ -1,47 +1,58 @@
 class Panorama {
-  observer = null;
-  onScreen = false;
-  intersectionThreshold = 0.33;
-  panorama = null;
-  slides = null;
+  #ready = false;
+  get ready() { return this.#ready; }
+  #observer = null;
+  get observer() { return this.#observer; }
+  #onScreen = false;
+  get onScreen() { return this.#onScreen; }
+  #intersectionThreshold = 0.33;
+  get intersectionThreshold() { return this.#intersectionThreshold; }
+  #panorama = null;
+  get panorama() { return this.#panorama; }
+  #slides = null;
+  get slides() { return this.#slides; }
 
   constructor() {
-    this.panorama = document.getElementById('panorama');
-    this.slides = this.panorama.querySelectorAll('img');
-    this.#initObserver();
+    if (document.readyState === 'loading')
+      document.addEventListener('DOMContentLoaded', () => this.#init());
+    else
+      this.#init();
   }
 
   pause() {
+    if (!this.ready) return;
     this.slides.forEach(slide => slide.style.animationPlayState = 'paused');
   }
 
   resume() {
+    if (!this.ready) return;
     this.slides.forEach(slide => slide.style.animationPlayState = 'running');
   }
 
   toggle() {
     if (this.onScreen)
-      this.pause();
-    else
       this.resume();
+    else
+      this.pause();
   }
 
-  #initObserver() {
-    this.observer = new IntersectionObserver(entries => {
+  #init() {
+    this.#panorama = document.getElementById('panorama');
+    this.#slides = this.panorama.querySelectorAll('img');
+
+    this.#observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
-        this.onScreen = !entry.isIntersecting;
+        this.#onScreen = entry.isIntersecting;
         this.toggle();
       });
     }, {
       threshold: this.intersectionThreshold
     });
 
-    this.observer.observe(this.panorama);
+    this.#observer.observe(this.panorama);
+
+    this.#ready = true;
   }
 }
 
-let panorama = null;
-
-document.addEventListener('DOMContentLoaded', () => {
-  panorama = new Panorama();
-});
+const panorama = new Panorama();
