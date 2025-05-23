@@ -1,0 +1,5 @@
+{
+  "code": 424,
+  "message": "Failed Dependency",
+  "description": "The request failed due to failure of a previous request (e.g., a PROPPATCH)."
+}

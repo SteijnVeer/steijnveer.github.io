@@ -1,0 +1,5 @@
+{
+  "code": 103,
+  "message": "Early Hints",
+  "description": "Used to return some response headers before final HTTP message."
+}

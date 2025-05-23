@@ -1,0 +1,5 @@
+{
+  "code": 522,
+  "message": "Connection Timed Out",
+  "description": "Cloudflare could not negotiate a TCP handshake with the origin server."
+}

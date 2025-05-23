@@ -1,0 +1,5 @@
+{
+  "code": "5xx",
+  "message": "Server Error",
+  "description": "5xx error codes indicate that an error or unresolvable request occurred on the server side, whether that is a proxy or the origin host."
+}

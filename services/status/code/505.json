@@ -1,0 +1,5 @@
+{
+  "code": 505,
+  "message": "HTTP Version Not Supported",
+  "description": "The server does not support the HTTP protocol version used in the request."
+}

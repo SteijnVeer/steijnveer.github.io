@@ -1,0 +1,5 @@
+{
+  "code": 530,
+  "message": "Origin DNS Error",
+  "description": "Error 530 indicates that the requested host name could not be resolved on the Cloudflare network to an origin server."
+}

@@ -1,0 +1,5 @@
+{
+  "code": 101,
+  "message": "Switching Protocols",
+  "description": "The requester has asked the server to switch protocols."
+}

@@ -1,0 +1,5 @@
+{
+  "code": 527,
+  "message": "Railgun Listener to Origin Error",
+  "description": "Error 527 indicates that the request timed out or failed after the WAN connection had been established."
+}

@@ -1,0 +1,5 @@
+{
+  "code": 402,
+  "message": "Payment Required",
+  "description": "Not yet implemented by RFC standards, but reserved for future use."
+}

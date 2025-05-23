@@ -1,0 +1,5 @@
+{
+  "code": 501,
+  "message": "Not Implemented",
+  "description": "The server either does not recognize the request method, or it lacks the ability to fulfill the request."
+}

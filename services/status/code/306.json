@@ -1,0 +1,5 @@
+{
+  "code": 306,
+  "message": "Switch Proxy",
+  "description": "No longer used. Originally meant \"Subsequent requests should use the specified proxy.\""
+}

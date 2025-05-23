@@ -1,0 +1,5 @@
+{
+  "code": 416,
+  "message": "Requested Range Not Satisfiable",
+  "description": "The client has asked for a portion of the file, but the server cannot supply that portion."
+}

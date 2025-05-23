@@ -1,0 +1,5 @@
+{
+  "code": 415,
+  "message": "Unsupported Media Type",
+  "description": "The server will not accept the request, because the media type is not supported."
+}

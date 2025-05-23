@@ -1,0 +1,5 @@
+{
+  "code": 525,
+  "message": "SSL Handshake Failed",
+  "description": "Cloudflare could not negotiate a SSL/TLS handshake with the origin server."
+}

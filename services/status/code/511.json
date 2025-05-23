@@ -1,0 +1,5 @@
+{
+  "code": 511,
+  "message": "Network Authentication Required",
+  "description": "The client needs to authenticate to gain network access."
+}

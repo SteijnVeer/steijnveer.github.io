@@ -1,0 +1,5 @@
+{
+  "code": 300,
+  "message": "Multiple Choices",
+  "description": "A link list. The user can select a link and go to that location. Maximum five addresses."
+}

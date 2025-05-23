@@ -1,0 +1,5 @@
+{
+  "code": 508,
+  "message": "Loop Detected",
+  "description": "The server detected an infinite loop while processing the request (sent instead of 208 Already Reported)."
+}

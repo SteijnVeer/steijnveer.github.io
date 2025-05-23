@@ -1,0 +1,5 @@
+{
+  "code": "4xx",
+  "message": "Client Error",
+  "description": "4xx codes generally are error responses specifying an issue at the client’s end. Potentially a network issue."
+}

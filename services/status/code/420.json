@@ -1,0 +1,5 @@
+{
+  "code": 420,
+  "message": "Method Failure (Spring Framework)",
+  "description": "A deprecated response used by the Spring Framework when a method has failed."
+}

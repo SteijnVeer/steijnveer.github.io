@@ -1,0 +1,5 @@
+{
+  "code": 406,
+  "message": "Not Acceptable",
+  "description": "The server can only generate a response that is not accepted by the client."
+}

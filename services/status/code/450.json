@@ -1,0 +1,5 @@
+{
+  "code": 450,
+  "message": "Blocked by Windows Parental Controls",
+  "description": "The Microsoft extension code indicated when Windows Parental Controls are turned on and are blocking access to the requested webpage."
+}

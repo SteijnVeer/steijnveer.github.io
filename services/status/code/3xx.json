@@ -1,0 +1,5 @@
+{
+  "code": "3xx",
+  "message": "Redirection",
+  "description": "3xx codes are a class of responses that suggest the User-Agent must follow another course of action to obtain the complete requested resource."
+}

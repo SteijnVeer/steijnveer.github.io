@@ -1,0 +1,5 @@
+{
+  "code": 200,
+  "message": "OK",
+  "description": "The request is OK (this is the standard response for successful HTTP requests)."
+}

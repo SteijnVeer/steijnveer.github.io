@@ -1,0 +1,5 @@
+{
+  "code": 509,
+  "message": "Bandwidth Limit Exceeded",
+  "description": "The server has exceeded the bandwidth specified by the server administrator; this is often used by shared hosting providers to limit the bandwidth of customers."
+}

@@ -1,0 +1,5 @@
+{
+  "code": 102,
+  "message": "Processing",
+  "description": "This code indicates that the server has received and is processing the request, but no response is available yet. This prevents the client from timing out and assuming the request was lost."
+}

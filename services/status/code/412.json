@@ -1,0 +1,5 @@
+{
+  "code": 412,
+  "message": "Precondition Failed",
+  "description": "The precondition given in the request evaluated to false by the server."
+}

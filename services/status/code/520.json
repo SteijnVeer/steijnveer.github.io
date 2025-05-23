@@ -1,0 +1,5 @@
+{
+  "code": 520,
+  "message": "Unknown Error",
+  "description": "The 520 error is used as a \"catch-all response for when the origin server returns something unexpected\", listing connection resets, large headers, and empty or invalid responses as common triggers."
+}

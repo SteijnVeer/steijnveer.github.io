@@ -1,0 +1,5 @@
+{
+  "code": 206,
+  "message": "Partial Content",
+  "description": "The server is delivering only part of the resource due to a range header sent by the client."
+}

@@ -1,0 +1,5 @@
+{
+  "code": 440,
+  "message": "Login Time-out",
+  "description": "The client's session has expired and must log in again. (IIS)"
+}

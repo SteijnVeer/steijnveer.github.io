@@ -1,0 +1,5 @@
+{
+  "code": 419,
+  "message": "Page Expired (Laravel Framework)",
+  "description": "Used by the Laravel Framework when a CSRF Token is missing or expired."
+}

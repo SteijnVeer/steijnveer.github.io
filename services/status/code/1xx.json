@@ -1,0 +1,5 @@
+{
+  "code": "1xx",
+  "message": "Information",
+  "description": "1xx codes are often interim responses for sharing connection status information. Not intended for final request or response action."
+}

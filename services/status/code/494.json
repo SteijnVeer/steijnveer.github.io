@@ -1,0 +1,5 @@
+{
+  "code": 494,
+  "message": "Request Header Too Large",
+  "description": "Used by nginx to indicate the client sent too large of a request or header line that is too long."
+}

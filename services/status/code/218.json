@@ -1,0 +1,5 @@
+{
+  "code": 218,
+  "message": "This is fine (Apache Web Server)",
+  "description": "Used as a catch-all error condition for allowing response bodies to flow through Apache when ProxyErrorOverride is enabled."
+}

@@ -1,0 +1,5 @@
+{
+  "code": 500,
+  "message": "Internal Server Error",
+  "description": "An error has occurred in a server side script, a no more specific message is suitable."
+}

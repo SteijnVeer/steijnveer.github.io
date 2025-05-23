@@ -1,0 +1,5 @@
+{
+  "code": "2xx",
+  "message": "Successful",
+  "description": "2xx codes indicate successful responses usually this means the action requested by the client was received, understood and accepted successfully."
+}

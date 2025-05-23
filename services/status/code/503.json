@@ -1,0 +1,5 @@
+{
+  "code": 503,
+  "message": "Service Unavailable",
+  "description": "The server is currently unavailable (overloaded or down)."
+}

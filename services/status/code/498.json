@@ -1,0 +1,5 @@
+{
+  "code": 498,
+  "message": "Invalid Token (Esri)",
+  "description": "Returned by ArcGIS for Server. Code 498 indicates an expired or otherwise invalid token."
+}

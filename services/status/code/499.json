@@ -1,0 +1,5 @@
+{
+  "code": 499,
+  "message": "Client Closed Request",
+  "description": "A non-standard status code introduced by nginx for the case when a client closes the connection while nginx is processing the request."
+}

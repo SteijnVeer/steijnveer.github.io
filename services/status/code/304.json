@@ -1,0 +1,5 @@
+{
+  "code": 304,
+  "message": "Not Modified",
+  "description": "Indicates the requested page has not been modified since last requested."
+}

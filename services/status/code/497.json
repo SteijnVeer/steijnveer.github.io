@@ -1,0 +1,5 @@
+{
+  "code": 497,
+  "message": "HTTP Request Sent to HTTPS Port",
+  "description": "An expansion of the 400 Bad Request response code, used when the client has made a HTTP request to a port listening for HTTPS requests."
+}

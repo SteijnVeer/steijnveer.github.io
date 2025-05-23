@@ -1,0 +1,5 @@
+{
+  "code": 205,
+  "message": "Reset Content",
+  "description": "The request has been successfully processed, but is not returning any content, and requires that the requester reset the document view."
+}

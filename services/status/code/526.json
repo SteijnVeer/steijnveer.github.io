@@ -1,0 +1,5 @@
+{
+  "code": 526,
+  "message": "Invalid SSL Certificate",
+  "description": "Used by Cloudflare and Cloud Foundry's gorouter to indicate failure to validate the SSL/TLS certificate that the origin server presented."
+}

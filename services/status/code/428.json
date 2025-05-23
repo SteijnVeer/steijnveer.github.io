@@ -1,0 +1,5 @@
+{
+  "code": 428,
+  "message": "Precondition Required",
+  "description": "The origin server requires the request to be conditional."
+}
