@@ -54,7 +54,7 @@ header {
     content: '';
     height: 2.5rem;
     width: 2.5rem;
-    background-image: url(/favicon/favicon.svg);
+    background-image: url(/page/SCRUM/favicon/favicon.svg);
     background-size: contain;
   }
   &::after {
